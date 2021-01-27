@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <RelativeLayout
+        android:id="@+id/card_pre_bu"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="@drawable/card_pre_bu">
+
+        <ImageView
+            android:id="@+id/profilePic"
+            android:layout_width="79dp"
+            android:layout_height="70dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="12dp"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <RelativeLayout
+            android:id="@+id/card_card_i"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/card_card_i"
+            android:visibility="gone">
+
+            <View
+                android:id="@+id/ellipse_16"
+                android:layout_width="23.08dp"
+                android:layout_height="23.08dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/ellipse_16" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="205dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="45dp"
+            android:fontFamily="@font/allerta"
+            android:gravity="top"
+            android:text="@string/ename"
+            android:textAppearance="@style/ename"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/salary"
+            android:layout_width="70dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginBottom="14dp"
+            android:fontFamily="@font/allerta"
+            android:gravity="top"
+            android:text="@string/ename"
+            android:textAppearance="@style/ename"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/gender"
+            android:layout_width="70dp"
+            android:layout_height="28dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="186dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="47dp"
+            android:layout_marginBottom="14dp"
+            android:fontFamily="@font/allerta"
+            android:gravity="top"
+            android:text="@string/ename"
+            android:textAppearance="@style/ename"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="46dp"
+            android:background="#FF6D9F"
+            android:backgroundTint="#FF6D9F"
+            android:foreground="@android:drawable/ic_menu_close_clear_cancel"
+            android:textColorLink="#E91E63"
+            app:cornerRadius="25dp" />
+
+        <ImageButton
+            android:id="@+id/edit"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="341dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="42dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/secondarybutton"
+            
+            android:foreground="@android:drawable/ic_menu_edit" />
+    </RelativeLayout>
+
+</LinearLayout>

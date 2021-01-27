@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/rectangle_1"
+    tools:context=".FormActivity"
+    android:scrollbars="vertical"
+    android:padding="25dp">
+
+<!--    <View-->
+<!--        android:id="@+id/rectangle_1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:background="@drawable/rectangle_1">-->
+
+
+<!--    </View>-->
+    <TextView
+        android:id="@+id/formTitle"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:gravity="top"
+        android:text="Employee Form"
+        android:textColor="#3d3d3d"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/base_form_i"
+        android:textColor="@color/design_default_color_primary"
+        android:padding="15dp"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="20dp"
+        android:text="Name" />
+
+    <EditText
+        android:id="@+id/esalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/base_form_i"
+        android:textColor="@color/design_default_color_primary"
+        android:padding="15dp"
+        android:inputType="number|numberDecimal"
+        android:layout_marginBottom="20dp"
+        android:text="Salary" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/base_form_i"
+        android:textColor="@color/design_default_color_primary"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="textPassword"
+        android:text="Salary" />
+
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:background="@drawable/base_form_i"
+        android:textColor="@color/design_default_color_primary"
+        android:padding="15dp"
+        android:layout_marginBottom="20dp"
+        android:inputType="date"
+        android:text="DOB" />
+
+    <RadioGroup
+        android:id="@+id/egender"
+        android:layout_width="match_parent"
+        android:layout_height="115dp">
+
+        <RadioButton
+            android:id="@+id/male"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textColor="@color/design_default_color_primary" />
+
+        <RadioButton
+            android:id="@+id/female"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textColor="@color/design_default_color_primary" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/secondarybutton"
+        android:text="Save" />
+
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyCrud</string>
+    <string name="ename">Name</string>
+    <string name="egen">Male</string>
+</resources>
